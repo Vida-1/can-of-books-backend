@@ -13,6 +13,7 @@ async function seedBooks() {
     title: 'I Know Why The Caged Bird Sings',
     description: 'An autobiographical account of the life and experiences of Maya Angelou',
     status: 'NON-FICTION'
+    // img: 'http://someURL.com'  // add for each book entry and don't forget comma above if used
   });
 
   // creating book #2

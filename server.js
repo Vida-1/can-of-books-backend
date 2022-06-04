@@ -3,7 +3,9 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const Book = require('./models/book');
+//const BookModel = require('.models/book'); --not being used so can toss this
+
+const getBooks = require('./modules/handlers');
 
 const app = express();
 app.use(cors());
@@ -25,15 +27,14 @@ db.once('open', function () {
   console.log('Mongoose is connected to Atlas!!')
 });
 
+app.get('/books', getBooks);  // setting route
 app.get('/test', (request, response) => {
-
   response.send('test request received')
-
-})
+});
 
 app.use((error, request, response, next) => {
   response.status(500).send(`My Bad! Error occurred in the server! Someone call the developer... ${error.message}`);
 });
 
-// very last line always
+// very last line of server code  ALWAYS
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
