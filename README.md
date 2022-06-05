@@ -36,3 +36,4 @@ Resources:
 * 301n26 Recorded lecture videos
 * Justin Hammerly, Remo TA - listened while Vida talked herself into a solution regarding backend deployment on 5/1/2022
 * Unsplash.com -- Steve Johnson's Reading Glasses Image (j02WYFuOJ6A)
+* David S., Remo TA - 
