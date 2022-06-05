@@ -20,7 +20,7 @@ This application uses HTML, React, JavaScript, and CSS. The build is run by Node
 
 ## Change Log
 06-01-2022 9:59pm (EDT) - Initial commit of the first chunk of code for the backend includes functional seed data
-06-02-2022 (EDT) - Initial backend build out complete; initial build out of front end complete
+06-04-2022 (EDT) - Initial backend build out complete; initial build out of front end complete
 
 ## Estimates
 #### Lab 11: READ of CRUD features
